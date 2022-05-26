@@ -1,0 +1,221 @@
+:root {
+  --primary-text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --btn-background-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  background: #ffffff;
+  box-sizing: border-box;
+  width: 1600px;
+  height: 80px;
+}
+/* Шапка сайту */
+.logo {
+  color: #000;
+  padding: 215px 1240px 25px 24px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 24px 1240px 25px 215px;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+/*  Навігація в шапці */
+
+ul {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--title-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.link .corrent {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.adr-nav {
+  color: var(--title-color);
+}
+.e-mail,
+.tel {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.e-mail:hover,
+.e-mail:focus,
+.tel:focus,
+.tel:hover {
+  color: var(--accent-color);
+}
+
+/* Герой */
+
+.hero {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
+.hero-title {
+  color: var(--white-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  padding: 200px 452px 280px;
+}
+
+/* button */
+
+.hero-btn {
+  color: #fff;
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  height: 50px;
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px #00000026;
+}
+
+.features-title,
+.portfolio-filters,
+.portfolio-title {
+  color: #ffffff00;
+}
+
+.features-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.gallery-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* Футер */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .logo {
+  color: var(--white-color);
+  font-family: 'Raleway', sans-serif;
+}
+
+.address,
+.footer-e-mail,
+.footer-tel {
+  color: var(--white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.footer-e-mail,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+/* головний колір #757575 */
+/* другий колір #212121 */
+/* білий #ffffff */
+/* ефект #2196F3 */
+/* чорний #000000 */
+
+/* Портфоліо */
+.filters-btn {
+  background-color: #f5f4fa;
+  color: var(--title-color);
+  width: 145px;
+  height: 38px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.filters-btn:focus,
+.filters-btn:hover {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-subtitle {
+  font-weight: 700;
+  color: var(--title-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+li > p {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
