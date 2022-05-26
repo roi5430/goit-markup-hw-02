@@ -10,25 +10,22 @@ body {
   background-color: var(--white-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.03em;
 }
 .header {
   background: #ffffff;
   box-sizing: border-box;
-  width: 1600px;
-  height: 80px;
 }
 /* Шапка сайту */
 .logo {
   color: #000;
-  padding: 215px 1240px 25px 24px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
   font-size: 26px;
   line-height: 1.2;
   font-weight: 700;
-  letter-spacing: 0.03em;
-  padding: 24px 1240px 25px 215px;
 }
 
 .accent {
@@ -80,8 +77,6 @@ ul {
 
 .hero {
   background-color: #2f303a;
-  width: 1600px;
-  height: 600px;
   left: 0px;
   top: 80px;
 }
@@ -93,7 +88,6 @@ ul {
   font-weight: 900;
   font-size: 44px;
   text-align: center;
-  padding: 200px 452px 280px;
 }
 
 /* button */
@@ -101,14 +95,18 @@ ul {
 .hero-btn {
   color: #fff;
   background-color: var(--accent-color);
+  cursor: pointer;
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  height: 50px;
-  width: 200px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px #00000026;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .features-title,
@@ -121,7 +119,6 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
 }
@@ -129,7 +126,6 @@ ul {
 .text {
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 
 .gallery-title,
@@ -138,20 +134,16 @@ ul {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 
 .team-subtitle {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 
 .team-text {
-  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -172,7 +164,6 @@ ul {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 
 .footer-e-mail,
@@ -191,15 +182,12 @@ ul {
 .filters-btn {
   background-color: #f5f4fa;
   color: var(--title-color);
-  width: 145px;
-  height: 38px;
   border-radius: 4px;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
 }
 .filters-btn:focus,
 .filters-btn:hover {
@@ -215,7 +203,5 @@ ul {
   letter-spacing: 0.06em;
 }
 li > p {
-  font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
 }
